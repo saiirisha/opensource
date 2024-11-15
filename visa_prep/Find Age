@@ -1,0 +1,4 @@
+x = int(input())
+def age(x):
+    return x-15
+print(age(x))
