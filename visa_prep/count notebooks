@@ -1,0 +1,4 @@
+n = int(input())
+tot_pages = n*1000
+nb = tot_pages // 100
+print(nb)
