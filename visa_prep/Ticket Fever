@@ -1,0 +1,4 @@
+o = int(input())
+for _ in range(o):
+    m,n = map(int, input().split())
+    print(max(0, m - n))
