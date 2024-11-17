@@ -1,0 +1,4 @@
+x,n= map(int, input().split())
+y = (n + 99) // 100
+planes= max(0, y-x)
+print(planes)
