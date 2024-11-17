@@ -1,0 +1,11 @@
+def bal_arr(n, a):
+    b = []
+    for i in range(n):
+        l_weight = sum(a[:i])
+        r_weight = sum(a[i+1:])
+        b.append(abs(l_weight-r_weight))
+    return b
+n = int(input())
+a = list(map(int, input().split()))
+b = bal_arr(n,a)
+print(" ".join(map(str, b)))
