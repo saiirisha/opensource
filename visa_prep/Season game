@@ -1,0 +1,11 @@
+o = int(input())
+if(1<= o >= 12):
+    print("Invalid")
+elif(3<=o<=5):
+    print("Spring")
+elif(6<=o<=8):
+    print("Summer")
+elif(9<=o<=11):
+    print("Autumn")
+else:
+    print("Winter")
