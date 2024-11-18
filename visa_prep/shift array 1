@@ -1,0 +1,6 @@
+def rot_arr(arr):
+    return arr[1:] + arr[:1]
+o = int(input())
+arr = list(map(int, input().split()))
+rot_arr = rot_arr(arr)
+print(" ".join(map(str, rot_arr)))
