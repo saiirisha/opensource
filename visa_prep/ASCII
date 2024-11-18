@@ -1,0 +1,4 @@
+def t(s):
+    return s.swapcase()
+s = input().strip()
+print(t(s))
