@@ -1,0 +1,8 @@
+def f_num(ar):
+    res = 0
+    for n in ar:
+        res ^= n
+    return res
+n = int(input())
+ar = list(map(int, input().split()))
+print(f_num(ar))
