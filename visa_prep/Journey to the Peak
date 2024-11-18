@@ -1,0 +1,12 @@
+def a(n):
+    c_a = 0
+    maxi = 0
+    for n in H:
+        c_a += n
+        maxi = max(maxi, c_a)
+    return maxi
+o = int(input().strip())
+H = list(map(int, input().split()))
+r = a(H)
+print(r)
+    
