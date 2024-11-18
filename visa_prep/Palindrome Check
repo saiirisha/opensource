@@ -1,0 +1,5 @@
+o = input().strip()
+if o==o[::-1]:
+    print("TRUE")
+else:
+    print("FALSE")
