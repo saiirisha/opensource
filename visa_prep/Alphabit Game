@@ -1,0 +1,14 @@
+def c(str):
+    u = set("aeiouAEIOU")
+    n_u = 0
+    n_c = 0
+    for char in str:
+        if char.isalpha():
+            if char in u:
+                n_u += 1
+            else:
+                n_c += 1
+    return n_u, n_c
+str = input().strip()
+u_count , c_count = c(str)
+print(f"{u_count},{c_count}")
