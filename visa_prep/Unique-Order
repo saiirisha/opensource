@@ -1,0 +1,7 @@
+o = int(input())
+a = list(map(int, input().split()))
+e = []
+for n in a:
+    if n not in e:
+        e.append(n)
+print(" ".join(map(str, e)))
