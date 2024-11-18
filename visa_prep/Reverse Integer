@@ -1,0 +1,11 @@
+def rev_int(N):
+    int_min,int_max = -2**31, 2**31-1
+    neg=N<0
+    rev_no = int(str(abs(N))[::-1])
+    if neg:
+        rev_no = -rev_no
+    if rev_no < int_min or rev_no> int_max:
+        return 0
+    return rev_no
+N=int(input())
+print(rev_int(N))
